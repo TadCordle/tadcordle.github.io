@@ -1,16 +1,21 @@
 body {
   padding:50px 50px 0px 50px;
-  font:16px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   color:#f0e7d5;
   font-weight: normal;
-  background: #252525;
+  background-image: url("./bg.png");
+  background-color: #000015;
   background-attachment: fixed;
 }
 
+body, td, th, h1, h2, h3, h4, h5, h6, a {
+  font-family: "Trebuchet MS", "Trebuchet MS", sans-serif;
+  line-height: 150%;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	color: #e8e8e8;
+	color: #a8a8a8;
 	margin: 0 0 10px;
-	font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 }
 
@@ -19,15 +24,20 @@ h1, h2, h3 {
 }
 
 a {
-  color:#00e7f0;
+  color:#ee7700;
 }
 
 td {
-  valign:"top"	
+  valign:"top"
 }
-body,td,th {
-	font-family: OpenSansRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 h1 {
 	font-size: 48px;
+	text-shadow: 3px 3px 5px #000000;
+}
+
+.box {
+	padding: 15px 15px 15px 15px;
+	margin: 0px 10px 0px 10px;
+	background: #00000075;
 }

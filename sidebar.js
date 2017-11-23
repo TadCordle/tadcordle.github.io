@@ -1,5 +1,5 @@
 document.write('\
-<table width=150>\
+<table width=150 class="box">\
 <tr><td><h3>Links</h3></td></tr>\
 <tr><td><a href="https://tadcordle.github.io/index.html">Home</a></td></tr>\
 <tr><td><a href="https://tadcordle.github.io/projects/index.html">Games</a></td></tr>\

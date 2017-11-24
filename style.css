@@ -3,8 +3,11 @@ body {
   font-size: 16px;
   color:#f0e7d5;
   font-weight: normal;
+  background: #000020;
   background-image: url("./bg.png");
-  background-color: #000015;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center center;
   background-attachment: fixed;
 }
 
@@ -14,9 +17,9 @@ body, td, th, h1, h2, h3, h4, h5, h6, a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #a8a8a8;
-	margin: 0 0 10px;
-	font-weight: normal;
+  color: #a8a8a8;
+  margin: 0 0 10px;
+  font-weight: normal;
 }
 
 h1, h2, h3 {
@@ -32,12 +35,12 @@ td {
 }
 
 h1 {
-	font-size: 48px;
-	text-shadow: 3px 3px 5px #000000;
+  font-size: 48px;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 .box {
-	padding: 15px 15px 15px 15px;
-	margin: 0px 10px 0px 10px;
-	background: #00000075;
+  padding: 15px 15px 15px 15px;
+  margin: 0px 10px 0px 10px;
+  background: #00000075;
 }

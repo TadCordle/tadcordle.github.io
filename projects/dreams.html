@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tad Cordle's Homepage - Dreams</title>
+<link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+
+<body>
+<table border="0">
+  <tr>
+    <td>&nbsp;</td>
+    <td><h1>Dreams</h1></td>
+  </tr>
+  <tr>
+    <td valign="top"><script src="../sidebar.js"></script></td>
+    <td valign="top" class="box">
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2ltgkcoQzow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
+    
+	Dreams is a game creation toolkit/social platform developed by Media Molecule that released in February 2020. I joined Media Molecule in late 2021 as a programmer to help update the creation toolkit, and ended up specializing in the logic and animation systems.<br/><br/>
+	
+	The largest project I worked on during my time on Dreams was the Animation 2.0 update that released in June 2023. The headline features are demoed in the VOD below.<br/><br/>
+	
+	<iframe src="https://player.twitch.tv/?video=1845281413&parent=tadcordle.github.io" allowfullscreen height="378" width="620"></iframe><br/><br/>
+	
+	The design of the tools focused on immediacy, removing steps in the animation process, and flexibility in editing. The update also shipped some interesting features that allowed people to create completely new kinds of animations, such as the physics recording feature (that allowed you to bake simulations into a cheap, deterministic animation) and the stop motion blending feature (which automatically quantized motion in an animation to give it a stylized look).<br/><br/>
+	
+	The new animation tools were also a massive optimization over the old tools as well. Dreams uses "gadgets" that provide sensor functionality, perform calculations, and affect the world. These gadgets are connected with wires that transmit values between them. In Dreams, animations are driven by different animation gadgets that connect to the affected objects using invisible wires. Given Dreams is a console game, there are hard limits for how many gadgets and wires can exist in a scene. The new animation update drastically reduces the amount of wires and gadgets required to make complex animations, which opens the door for creators to make far more advanced creations without hitting the built-in limits (for example, one user-created animation called "Duet", which originally used up 45% of its wire budget and 18% of its gadget budget, used less than 1% wires and 4% things when converted to use the new animation tools).<br/><br/>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GlqYTW8kMMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/><br/>
+
+	I was the sole developer on the animation update, and as such I was responsible for design decisions, scoping, implementation, and iteration of the tools.<br/><br/>
+	
+	In addition to the animation update, during my time on Dreams I helped ship many small create mode updates (invisible wire filter, colorblindness filters, paint glow visibility settings, weighted randomization gadget, to name a few), as well as helped with the server migration efforts to ensure the Dreams servers are secure, sustainable, and scalable.<br/><br/>
+	</td>
+  </tr>
+</table>
+</body>
+</html>
